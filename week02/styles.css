@@ -1,3 +1,26 @@
+:root{
+    --heading-background-color: #e4e4e4;
+    --header-text-color: #c9b60f;
+    --heading-font: 'montserrat', halvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid (0 0 0 / 0.1);
+}
+ /*some variables for colors, fonts, padding, and border*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    background-color: var(--heading-background-color);
+    color: var(--header-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+    border: var(--border);
+}
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -33,15 +56,12 @@ main {
   background-color:#fff;
 }
 
-aside {
-  width: 20rem;
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0/ 0.2 );
-  padding: 1px;
-  background-color:#eee;
-  color: #333;
-  height: auto;
-  text-align: center;
+header {
+    background-color: #f3f3f3;
+    color: rgb(212, 116, 116);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 main img {
     width: 200px;
@@ -54,4 +74,20 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+aside {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #f00404;
+    text-align: center;
+    padding: 10px;
+    background-color: #351d1d;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
