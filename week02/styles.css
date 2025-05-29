@@ -14,7 +14,7 @@ body {
     background-color: #f4f4f4;
 }
 
-h1, {
+h1 {
     background-color: var(--heading-background-color);
     color: var(--header-text-color);
     font-family: var(--heading-font);
@@ -33,7 +33,7 @@ nav a {
 }
 
 h1 {
- color: darkblue ;
+ color: rgb(2, 2, 59) ;
 }
 
 img {
