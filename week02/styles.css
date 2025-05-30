@@ -24,6 +24,7 @@ h1 {
 nav {
     background-color: darkblue;
     padding: 10px;
+    text-align: left;
 }
 
 nav a {
@@ -54,6 +55,7 @@ main {
   border-top: 10px;
   padding:5px;
   background-color:#fff;
+  margin-right: 20px;
 }
 
 header {
@@ -66,6 +68,7 @@ header {
 main img {
     width: 200px;
     height: auto;
+    margin-right: 100px;
 }
 p {
     padding: 0;
@@ -81,13 +84,14 @@ aside {
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 10px;
+    margin-right: 1000px;
 }
 footer {
     margin-top: 15px;
-    border-top: 1px solid #f00404;
+    border-top: 1px solid #2c2c2c;
     text-align: center;
     padding: 10px;
-    background-color: #351d1d;
+    background-color: #474747;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
