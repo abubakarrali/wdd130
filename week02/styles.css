@@ -1,30 +1,12 @@
-:root{
-    --heading-background-color: #e4e4e4;
-    --header-text-color: #c9b60f;
-    --heading-font: 'montserrat', halvetica, sans-serif;
-    --padding: 1rem;
-    --border: 1px solid (0 0 0 / 0.1);
-}
- /*some variables for colors, fonts, padding, and border*/
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-    background-color: var(--heading-background-color);
-    color: var(--header-text-color);
-    font-family: var(--heading-font);
-    padding: var(--padding);
-    border: var(--border);
-}
 nav {
     background-color: darkblue;
     padding: 10px;
-    text-align: left;
 }
 
 nav a {
@@ -34,7 +16,7 @@ nav a {
 }
 
 h1 {
- color: rgb(2, 2, 59) ;
+ color: darkblue ;
 }
 
 img {
@@ -44,7 +26,14 @@ img {
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
-
+/* class selectors*/
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
 p {
     padding: 5px;
 }
@@ -55,20 +44,28 @@ main {
   border-top: 10px;
   padding:5px;
   background-color:#fff;
-  margin-right: 20px;
 }
 
-header {
-    background-color: #f3f3f3;
-    color: rgb(212, 116, 116);
-    padding: 10px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
+aside {
+  width: 20em;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0/ 0.2 );
+  padding: 1px;
+  background-color:#eee;
+  color: #333;
+  height: auto;
+  text-align: center;
+}
+aside h2 {aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+}
 }
 main img {
     width: 200px;
     height: auto;
-    margin-right: 100px;
+    float: right;
 }
 p {
     padding: 0;
@@ -77,21 +74,4 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-}
-
-aside {
-    background-color: #f0f0f0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 10px;
-    margin-right: 1000px;
-}
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #2c2c2c;
-    text-align: center;
-    padding: 10px;
-    background-color: #474747;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
 }
