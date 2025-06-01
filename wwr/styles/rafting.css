@@ -43,6 +43,10 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+.hero {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -60,19 +64,8 @@ h1 {
     color: #ffff;
 }
 
-.hero {
-    position: relative;
-}
-
 .hero article img {
     float: right;
-    width: 200px;
+    width: 125px;
     height: auto;
-}
-
-footer {
-    background-color: #b0e9b0;
-    color: var(--accent1-color);
-    text-align: center;
-    padding: 1px;
 }
