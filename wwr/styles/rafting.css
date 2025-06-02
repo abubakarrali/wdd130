@@ -53,6 +53,22 @@ nav, p, section, article {
     height: auto;
 }
 
+p1 {
+    position:absolute;
+    background-color: #e9c46a;
+    top: 110px;
+    font-size: 15px;
+    padding-right: 100px;
+    margin-top: 1px;
+    margin-right: 9px;
+    margin-left: 2px;
+    margin-bottom: 300px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-top: 30px;
+
+}
+
 h1 {
     position: absolute;
     top: 28px;
@@ -68,4 +84,5 @@ h1 {
     float: right;
     width: 125px;
     height: auto;
+    top: 1000px; 
 }
